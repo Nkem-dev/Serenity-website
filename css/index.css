@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    overflow: hidden;
+    /* height: 70vh; */
+    width: 100%;
+    height: 80vh;
+}
+
+
+
+.anger{
+    width: 12%;
+    position: relative;
+    left: 25rem;
+    bottom: 5rem;
+}
+
+.mask-icon{
+    width: 17%;
+    position: relative;
+    top: 15rem;
+    right: 2rem;
+    
+}
+
+.mask-two{
+    width: 12%;
+    position: relative;
+    right: 27rem;
+    bottom: 0.9rem;
+}
+.depressed{
+    width: 20%;
+    position: relative;
+    left: 31rem;
+    bottom: 3.4rem;
+}
+
+.last-icon{
+    width: 15%;
+    position: relative;
+    left: 22rem;
+    bottom: 2rem;
+}
+
+.group-icon{
+    width: 12%;
+    position: relative;
+    top: 7rem;
+    left: 5rem;
+}
+.serenity-icon{
+    width: 15%;
+    position: relative;
+    top: 14rem;
+    right: 7rem;
+
+}
+.serene-container{
+  border: 1px solid transparent;
+  width: 270px;
+  height: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 14rem;
+  background: #272727CC;
+  border-radius: 10px;
+  backdrop-filter: blur(10px)
+
+  
+}
+
+.serene{
+    display: flex;
+    gap: 3px;
+    margin-top: 30px;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.serene-log{
+    margin-left: 20px;
+}
+.serene-logo{
+    width: 10px;
+}
+
+.serene-text{
+    font-size: 9px;
+    margin-top: 3px;
+    color:  #FFF963;
+    font-family: sans-serif;
+
+}
+
+.welcome-text{
+    text-align: center;
+    line-height: 14px;
+    color: #E3E3E3;
+    margin-top: 10px;
+    font-family: Open sans;
+}
+
+
+
+.connect-button{
+    margin-left: 50px;
+    margin-top: 35px;
+   
+}
+
+.connect-wallet{
+    /* width: 155px; */
+    padding: 6px 50px;
+    font-size: 6.5px;
+    font-weight: bolder;
+    background-color: #FFF963;
+    border: none;
+    border-radius: 2.5px;
+    cursor: pointer;
+    transition: background-color 300ms ease, transform 300ms ease;
+
+}
+
+.connect-wallet:hover{
+    background-color: #FFF963;
+    transform: scale(1.1);
+}
+
+
+
+.disclaimer{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+}
+
+
+
+.disc-icon{
+    width: 6.5px;
+    position: relative;
+    bottom: 2px;
+    
+   
+}
+
+.disclaimer-text{
+    font-size: 5px;
+    font-weight: light;
+    margin-top: 7px;
+    font-family: sans-serif;
+    color: #E3E3E3;
+   
+}
