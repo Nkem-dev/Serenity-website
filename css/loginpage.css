@@ -21,28 +21,38 @@ body{
     margin-top: 20px;
     padding: 20px;
     background-color: #272727CC;
+    display: flex;
 }
 
+.approved-section{
+    /* margin-right: 50px; */
+    margin-top: 13px;
+    position: relative;
+    right: 5rem;
+}
 
 .wallet-connect{
     font-size: 10px;
     font-family: sans-serif;
     color: #FFFFFF;
+    
 }
+
+
 
 
 
 .approved-text{
     font-size: 8.5px;
     font-family: sans-serif;
-    margin-top: 13px;
+    margin-top: 12px;
     color: #C7C7C7;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .fox-section{
     display: flex;
-    margin-top: 6px;
+    margin-top: 8px;
    
 }
 
@@ -127,5 +137,24 @@ body{
     margin-top: 3px;
     color: #7B7B7B;
     font-weight: 500;
+}
+
+.line{
+    height: 210px;
+    /* border-color: #6C6C6C; */
+    margin-top: 25px;
+    position: relative;
+    right: 2rem;
+}
+
+.what-text{
+    color: #FFFFFFE5;
+    font-size: 9px;
+    font-family: sans-serif;
+    margin-top: 25px;
+    font-weight: 600;
+   margin-left: 20px;
+    
+
 }
 
