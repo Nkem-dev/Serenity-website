@@ -11,17 +11,70 @@ body{
     height: 80vh;
 }
 
+.anger{
+    width: 10%;
+    position: relative;
+    left: 25rem;
+    bottom: 5rem;
+}
+
+.mask-icon{
+    width: 17%;
+    position: relative;
+    top: 15rem;
+    right: 0.1rem;
+    
+}
+
+.mask-two{
+    width: 12%;
+    position: relative;
+    right: 27rem;
+    bottom: 0.9rem;
+}
+.depressed{
+    width: 20%;
+    position: relative;
+    left: 31rem;
+    bottom: 3.4rem;
+}
+
+.last-icon{
+    width: 12%;
+    position: relative;
+    left: 22rem;
+    bottom: 2rem;
+}
+
+.group-icon{
+    width: 12%;
+    position: relative;
+    top: 7rem;
+    left: 6rem;
+}
+.serenity-icon{
+    width: 15%;
+    position: relative;
+    top: 11rem;
+    right: 6rem;
+
+}
+
 .connect-container{
     border: 1px solid transparent;
-    width: 45%;
-    height: 90vh;
+    width: 43%;
+    height: 80vh;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 20px;
-    background-color: #272727CC;
+    background: #272727CC;
+    backdrop-filter: blur(5px);
+
     display: flex;
+    position: relative;
+    bottom: 14rem;
 }
 
 .approved-section{
