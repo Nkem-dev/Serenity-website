@@ -60,18 +60,18 @@ body{
 
 }
 
-.expectation-container{
-        border: 1px solid transparent;
-        width: 36%;
-        height: 86.5vh;
-        border-radius: 3px;
-        margin-left: auto;
-        margin-right: auto;
-        /* margin-top: 29px; */
-        position: relative;
-        bottom: 8rem;
-        background: #272727CC;
-        backdrop-filter: blur(9px);
+.challenges-section{
+    border: 1px solid transparent;
+    width: 36%;
+    height: 86.5vh;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 29px; */
+    position: relative;
+    bottom: 8rem;
+    background: #272727CC;
+    backdrop-filter: blur(9px);
 }
 
 .sign{
