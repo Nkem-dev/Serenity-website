@@ -123,6 +123,10 @@ body{
     cursor: pointer;
 }
 
+.meta-text a:hover{
+    color: #FFF963;
+}
+
 /* .meta-text a:hover{
     color: #7B7B7B;
 } */
@@ -306,6 +310,10 @@ body{
     text-decoration: none;
     color: #A3A3A3;
     cursor: pointer;
+}
+
+.con:hover{
+    color: #FFF963;
 }
 
 

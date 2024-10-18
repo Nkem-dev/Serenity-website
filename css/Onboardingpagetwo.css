@@ -60,7 +60,7 @@ body{
 
 }
 
-.therapy-container{
+.options-container{
     border: 1px solid transparent;
     width: 36%;
     height: 85vh;
@@ -70,6 +70,7 @@ body{
     /* margin-top: 29px; */
     position: relative;
     bottom: 8rem;
+   
     background: #272727CC;
     backdrop-filter: blur(9px);
    
@@ -113,86 +114,66 @@ body{
     font-size: 10px;
 }
 
+
+
 .therapy-text{
     margin-left: 15px;
     margin-top: 10px;
 }
 
-.check{
-    margin-top: 8px;
-    border: 1px solid transparent;
-    background: #5E5E5E;
-    margin-left: 15px;
-    width: 87%;
-    border-radius: 3px;
-    
-    
-}
-
-.check-container{
-    display: flex;
-    gap: 5px;
-    padding: 5px 7px;
-}
-
 .check-two{
     display: flex;
     gap: 5px;
-    padding: 5px 7px;
+    padding: 7px 8px;
     margin-top: 6px;
     border: 1px solid transparent;
     background: #5E5E5E;
     margin-left: 15px;
     width: 87%;
     border-radius: 3px;
+    cursor: pointer;
     
 }
+
+.check-two:hover{
+    background:  #FFF963;
+    
+
+}
+
+.check-three:hover{
+    background:  #FFF963;
+    
+
+}
+
+
 
 .check-three{
     display: flex;
     gap: 5px;
-    padding: 5px 7px;
+    padding: 7px 8px;
     margin-top: 6px;
     border: 1px solid transparent;
     background: #5E5E5E;
     margin-left: 15px;
     width: 87%;
     border-radius: 3px;
-    
-}
-
-.check-four{
-    display: flex;
-    gap: 5px;
-    padding: 5px 7px;
-    margin-top: 6px;
-    border: 1px solid transparent;
-    background: #5E5E5E;
-    margin-left: 15px;
-    width: 87%;
-    border-radius: 3px;
+    cursor: pointer;
     
 }
 
 
-
-input[type="checkbox"] {  
-    accent-color: #FFF963;  
-
-}
-
-
-    
-.check-text{
+.depressed-text{
     color: #FFFFFF;
-    font-size: 11px;
+    font-size: 9px;
     font-family: sans-serif;
-    margin-top: 3px;
+   
 }
 
 .next-button{
     margin-left: 120px;
-    margin-top: 20px;
+    margin-top: 90px;
     
 }
 
@@ -211,4 +192,7 @@ input[type="checkbox"] {
     background-color: #FFF963;
     transform: scale(1.1);
 }
-    
+
+
+
+
