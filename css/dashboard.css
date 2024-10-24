@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.main-container{
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 1px solid white; */
+    display: flex;
+    
+}
+
+.side-bar{
+    border: 1px solid transparent;
+    width: 150px;
+    height: 600px;
+    background: #272727;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.serene-logo{
+    width: 130px;
+}
+
+.dashboard{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+
+.dash-log{
+    width: 15px;
+}
+
+.dashh{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+}
+
+.dash-text{
+    margin-top: 4px;
+}
+
+.dash-link{
+    text-decoration: none;
+   
+}
+
+.communities{
+    display: flex;
+    gap: 10px;
+    margin-top: 17px;
+    margin-left: 10px;
+
+}
+
+.com-log{
+    width: 15px;
+
+}
+
+.com-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+
+}
+
+.comm-link{
+    text-decoration: none;
+}
+
+.therapists{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.ther-log{
+    width: 15px;
+
+}
+
+.ther-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+
+}
+.therapist-link{
+    text-decoration: none;
+}
+
+.resources{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.res-log{
+    width: 15px;
+
+}
+
+.res-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+}
+
+.resources-text{
+    margin-top: 3px;
+}
+
+.res-link{
+    text-decoration: none;
+}
+
+.chats{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.chat-log{
+    width: 15px;
+}
+
+.chat-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+
+}
+.chat-text{
+    margin-top: 3px;
+}
+.chat-link{
+    text-decoration: none;
+}
+
+.my-bookings{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.book{
+    width: 15px;
+}
+
+.booking-link{
+    text-decoration: none;
+}
+
+.booking-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+
+}
+
+.booking-text{
+    margin-top: 3px;
+}
+
+.settings{
+    display: flex;
+    gap: 10px;
+    margin-top: 225px;
+    margin-left: 10px;
+
+}
+
+.set-icon{
+    width: 15px;
+}
+
+.settings-link{
+    text-decoration: none;
+}
+
+.set-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+
+}
+
+.settings-text{
+    margin-top: 3px;
+}
+
+.log-out{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.log{
+    width: 15px;
+}
+
+.log-link{
+    text-decoration: none;
+}
+
+.log-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+
+}
+
+.logout-text{
+    margin-top: 3px;
+}
+
+header{
+   border-bottom: 1px solid #444444;
+   width: 690px;
+   height: 15vh;
+   background-color: #131313;
+}
+
+.icons{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.search{
+    width: 8px;
+}
+
+.notify{
+    width: 8px;
+
+}
+
+.profile-pic{
+    width: 15px;
+}
+
+.profile{
+    margin-top: 2px;
+}
+
+.welcome-message{
+    margin-left: 175px;
+    position: absolute;
+    top: 4rem;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.hey{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.welcome-para{
+    color: #C7C7C7;
+    font-family: sans-serif;
+    font-size: 8px;
+    letter-spacing: 0.7px;
+   
+}
+
+.first-box{
+    border: 1px solid transparent;
+    width: 290px;
+    height: 120px;
+    border-radius: 3px;
+    margin-left: 175px;
+    position: absolute;
+    top: 9rem;
+    background: #E3DAFF;
+    padding: 15px;
+}
+
+.match-text{
+    color: #605A74;
+    font-family: sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 11px;
+     margin-left: -5px;
+   margin-top: 10px;
+   letter-spacing: 0.8px;
+   padding-right: 8px;
+    
+}
+
+.profile-notify{
+    display: flex;
+    margin-left: -5px;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.profile-woman{
+    width: 15px;
+}
+
+.name{
+    font-weight: 900;
+    font-size: 10px;
+    color: #0B0B0B;
+}
+
+.notify-para{
+    font-family: sans-serif;
+    color: #605A74;
+    font-size: 9px;
+    margin-top: 3px;
+}
+
+.first-buttons{
+    display: flex;
+    gap: 5px;
+    margin-left: -5px;
+    margin-top: 20px;
+}
+
+.hey-but{
+    border: 1px solid #B2A4DC;
+    font-size: 10px;
+    padding: 5.5px 15px;
+    background: #C1B4E9;
+    border-radius: 3px;
+    color: #211F2A;
+    font-weight: 550;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.hey-but:hover{
+    
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.good-morn{
+    font-size: 9px;
+    font-weight: 550;
+    font-family: sans-serif;
+    color: #211F2A;
+    border: 1px solid #B2A4DC;
+    padding: 6px 15px;
+    width: 122.5px;
+    background: #C1B4E9;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.good-morn:hover{
+    
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.nice-meet{
+    font-size: 9px;
+    font-weight: 550;
+    font-family: sans-serif;
+    color: #211F2A;
+    border: 1px solid #B2A4DC;
+    padding: 6px 2.5px;
+    width: 110px;
+    background: #C1B4E9;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.nice-meet:hover{
+    
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.second-box{
+    border: 1px solid transparent;
+    width: 322px;
+    height: 80vh;
+    border-radius: 3px;
+    position: absolute;
+    top: 20rem;
+    margin-left: 175px;
+    background: #272727;
+}
+
+.not-member{
+    margin-left: 110px;
+    margin-top: 50px;
+    
+}
+
+.not-mem{
+    width: 75px;
+}
+
+.not-txt{
+    color: #C7C7C7;
+    font-family: sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.recommended-part{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.rec-txt{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.see-link{
+    color: #C7C7C7;
+    font-family: sans-serif;
+    font-size: 8px;
+    text-decoration: none;
+}
+
+.see-link:hover{
+    color: #FFF963;
+}
+.see-all{
+    margin-left: 70px;
+    margin-top: -5px;
+   
+}
