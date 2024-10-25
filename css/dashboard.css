@@ -10,8 +10,6 @@ body{
 
 .main-container{
     width: 100%;
-    /* height: 100vh; */
-    /* border: 1px solid white; */
     display: flex;
     
 }
@@ -21,6 +19,15 @@ body{
     width: 150px;
     height: 600px;
     background: #272727;
+    /* position: fixed; */
+     /* Fixes the sidebar in place */  
+    /* top: 0;  */
+    /* Aligns the sidebar to the top */  
+    /* left: 0;  */
+    /* Aligns the sidebar to the left */  
+     
+   
+   
 }
 .logo{
     margin-top: 20px;
@@ -193,9 +200,9 @@ body{
 .settings{
     display: flex;
     gap: 10px;
-    margin-top: 225px;
+    margin-top: 255px;
     margin-left: 10px;
-
+   
 }
 
 .set-icon{
@@ -250,7 +257,14 @@ header{
    width: 690px;
    height: 15vh;
    background-color: #131313;
+   /* position: fixed;
+   top: 0;
+   left: 9.5rem;
+   
+   z-index: 1000; */
 }
+
+
 
 .icons{
     display: flex;
@@ -299,7 +313,7 @@ header{
 
 .first-box{
     border: 1px solid transparent;
-    width: 290px;
+    width: 293px;
     height: 120px;
     border-radius: 3px;
     margin-left: 175px;
@@ -414,8 +428,8 @@ header{
 
 .second-box{
     border: 1px solid transparent;
-    width: 322px;
-    height: 80vh;
+    width: 322.9px;
+    height: 90vh;
     border-radius: 3px;
     position: absolute;
     top: 20rem;
@@ -445,7 +459,7 @@ header{
 .recommended-part{
     display: flex;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 13px;
 
 }
 
@@ -466,7 +480,477 @@ header{
     color: #FFF963;
 }
 .see-all{
-    margin-left: 70px;
+    margin-left: 87px;
     margin-top: -5px;
    
+}
+
+.contentbox-one{
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 150px;
+    height: 18vh;
+    gap: 10px;
+    margin-left: 13px;
+    background: #FFFB97;
+    margin-top: 10px;
+    
+}
+
+.cheers-head{
+    margin-top: 10px;
+}
+
+.cheers{
+    width: 30px;
+}
+
+.contentone-image{
+    margin-top: 15px;
+    margin-left: 7px;
+}
+
+.cheers-text{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #191919;
+}
+
+.number{
+    color: #666666;
+    font-size: 8px;
+    font-family: sans-serif;
+}
+
+.alcoholics{
+    color: #77753A;
+    background: #CEC8C1;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 7px;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.alcoholics:hover{
+    transform: scale(1.05);
+}
+
+.number-cheers{
+    margin-top: 5px;
+}
+
+.content-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.contentbox-two{
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 135px;
+    height: 18vh;
+    gap: 10px;
+    margin-left: 7px;
+    background: #CBE6FF;
+    margin-top: 10px;
+
+}
+
+.contentbox-three{
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 150px;
+    height: 18vh;
+    gap: 10px;
+    margin-left: 13px;
+    background: #EBE5DD;
+    margin-top: 10px;
+
+}
+
+.contentbox-four{
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 135px;
+    height: 18vh;
+    gap: 10px;
+    margin-left: 7px;
+    background: #E3DAFF;
+    margin-top: 10px;
+}
+
+.third-box{
+   border: 1px solid transparent;
+   width: 310px;
+   height: 90vh;
+   margin-left: 510px;
+   position: absolute;
+   top: 9rem;
+   border-radius: 3px;
+   background: #272727;
+}
+
+.search-not{
+    width: 75px;
+}
+
+.search-nott{
+    margin-left: 110px;
+    margin-top: 45px;
+}
+
+.no-schedule{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.no-appointment{
+    color: #C7C7C7;
+    font-family: sans-serif;
+    font-size: 10px;
+    width: 150px;
+    letter-spacing: 0.6px;
+   
+}
+
+.see-two{
+    color: #C7C7C7;
+    font-family: sans-serif;
+    font-size: 8px;
+    text-decoration: none;
+
+}
+
+
+.see-two:hover{
+    color: #FFF963;
+}
+.seeall-two{
+    margin-left: 110px;
+    margin-top: -5px;
+   
+}
+
+.therapists-box{
+    margin-top: 10px;
+    margin-left: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.firsttherapist-box{
+    border: 0.4px solid #747474;
+    width: 140px;
+    height: 28vh;
+    border-radius: 4px;
+    display: flex;
+    gap: 5px;
+}
+
+.secondtherapist-box{
+    border: 0.4px solid #747474;
+    width: 132px;
+    height: 28vh;
+    border-radius: 4px;
+    margin-left: 5px;
+    display: flex;
+    gap: 5px;
+
+}
+
+.maryann{
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.mary{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.maryann-tit{
+    color: #C7C7C7;
+    font-family: sans-serif;
+    font-size: 7px;
+    margin-top: 5px;
+}
+
+.ratings{
+    display: flex;
+    gap: 2px;
+}
+
+.star-sign{
+    width: 8px;
+}
+
+.review{
+    color: #7B7B7B;
+    font-family: sans-serif;
+    font-size: 8px;
+    margin-top: 6px;
+    
+}
+
+.maryann-contents{
+    margin-top: 10px;
+}
+
+.feelings-button{
+    margin-left: -30px;
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.depression{
+    color: #191919;
+    font-family: sans-serif;
+    font-size: 7px;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 9px;
+    font-weight: 600;
+    background: #E3DAFF;
+    cursor: pointer;
+}
+
+.depression:hover{
+    transform: scale(1.05);
+
+}
+
+.Anxiety-button{
+    margin-left: -2px;
+}
+
+.Anxiety{
+    color: #191919;
+    font-family: sans-serif;
+    font-size: 7px;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 9px;
+    font-weight: 600;
+    background: #FFF963;
+    cursor: pointer;
+    
+
+}
+
+.Anxiety:hover{
+    transform: scale(1.05);
+}
+
+.family-issues{
+    color: #191919;
+    font-family: sans-serif;
+    font-size: 7px;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 9px;
+    font-weight: 600;
+    background: #EBE5DD;
+    cursor: pointer;
+    margin-left: 5px;
+    
+}
+
+.family-issues:hover{
+    transform: scale(1.05);
+}
+
+.Familyissues-button{
+    margin-left: -5px;
+}
+
+.fourth-box{
+    border: 1px solid transparent;
+    width: 310px;
+    height: 40vh;
+    position: relative;
+    bottom: 5.5rem;
+    margin-left:  510px;
+    border-radius: 3px;
+    background: #EBE5DD;
+}
+
+.mood-section{
+    display: flex;
+}
+
+.mood-question{
+    font-family: sans-serif;
+    color: #191919;
+    font-size: 11.5px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.moo-date{
+    color: #666666;
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+.mood-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.butterfly{
+   height: 40vh;
+}
+
+.mood-img{
+    margin-left: 9px;
+}
+
+.anx-mood{
+    padding: 6px 9px;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: #191919;
+    background-color: #D8CFC2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.anx-mood:hover{
+    transform: scale(1.05);
+}
+
+.joy{
+    padding: 6px 9px;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: #191919;
+    background-color: #D8CFC2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.joy:hover{
+    transform: scale(1.05);
+}
+
+.joy-mood{
+    margin-left: -7px;
+}
+
+.Dep{
+    padding: 6px 9px;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: #191919;
+    background-color: #D8CFC2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Dep:hover{
+    transform: scale(1.05);
+}
+
+.Depressed-mood{
+    margin-left: -25px;
+
+}
+
+
+.surprised{
+    padding: 6px 9px;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: #191919;
+    background-color: #D8CFC2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.surprised:hover{
+    transform: scale(1.05);
+}
+
+.Surprised-mood{
+    margin-top: 2px;
+}
+
+
+.calm{
+    padding: 6px 9px;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: #191919;
+    background-color: #D8CFC2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.calm:hover{
+    transform: scale(1.05);
+}
+
+.calm-mood{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+
+.stupid{
+    padding: 6px 9px;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: #191919;
+    background-color: #D8CFC2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.stupid:hover{
+    transform: scale(1.05);
+}
+
+.stupid-mood{
+    margin-top: 2px;
+    margin-left: -10px;
+}
+
+.fifth-box{
+    border: 1px solid transparent;
+    width: 642px;
+    height: 80vh;
+    margin-left: 175px;
+    position: relative;
+    bottom: 67px;
+    background-color: #272727;
+    border-radius: 3px;
+
 }
