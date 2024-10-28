@@ -954,3 +954,153 @@ header{
     border-radius: 3px;
 
 }
+
+.resources-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resources{
+    margin-left: 20px;
+}
+
+.resource{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.see{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.see-resource{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 8px;
+    color: #C7C7C7;
+}
+
+.see-resource:hover{
+    color: #FFF963;
+}
+
+.resources-list{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.article-button{
+    padding: 4px 54px;
+    font-size: 10px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    border: none;
+    background: #FFF963;
+    font-weight: 600;
+
+}
+
+.video-button{
+    padding: 4px 54px;
+    font-size: 10px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    border: none;
+    background: #201F1F;
+    color: #C7C7C7;
+}
+
+.podcast-button{
+    padding: 4px 54px;
+    font-size: 10px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    border: none;
+    background: #201F1F;
+    color: #C7C7C7;
+
+}
+
+.career-button{
+    padding: 4px 54px;
+    font-size: 10px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    border: none;
+    background: #201F1F;
+    color: #C7C7C7;
+
+}
+
+.first-goodvibe{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 15px;
+}
+
+.good-vibe{
+    width: 105px;
+}
+
+
+.how-long{
+    font-family: sans-serif;
+    font-size: 10.8px;
+    color: #FFFFFF;
+    
+}
+
+.decade{
+    color: #C7C7C7;
+    font-family: sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.5px;
+    
+
+}
+
+.decade-text{
+    width: 390px;
+    margin-top: 5px;
+    line-height: 13px;
+}
+
+.read{
+    width: 12px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+   
+}
+
+.read-more{
+    margin-top: 10px;
+}
+
+.readmore-button{
+    border-color:  #FFF963;
+    background: transparent;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #FFF963;
+    padding: 5px 15px;
+    border-radius: 3px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.readmore-button:hover{
+    transform: scale(1.05);
+
+}
+
+.line2{
+    width: 93%;
+    margin-left: 20px;
+}
+
