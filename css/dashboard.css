@@ -960,8 +960,9 @@ header{
     justify-content: space-between;
 }
 
-.resources{
+.resources-two{
     margin-left: 20px;
+    margin-top: 12px;
 }
 
 .resource{
