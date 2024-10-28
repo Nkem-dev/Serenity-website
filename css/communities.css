@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+    
+}
+
+.side-bar{
+    border: 1px solid transparent;
+    width: 150px;
+    height: 600px;
+    background: #272727;
+    /* position: fixed; */
+     /* Fixes the sidebar in place */  
+    /* top: 0;  */
+    /* Aligns the sidebar to the top */  
+    /* left: 0;  */
+    /* Aligns the sidebar to the left */  
+     
+   
+   
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.serene-logo{
+    width: 130px;
+}
+
+.dashboard{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+
+.dash-log{
+    width: 15px;
+}
+
+.dashh{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+}
+
+.dash-text{
+    margin-top: 4px;
+}
+
+.dash-link{
+    text-decoration: none;
+   
+}
+
+.communities{
+    display: flex;
+    gap: 10px;
+    margin-top: 17px;
+    margin-left: 10px;
+
+}
+
+.com-log{
+    width: 15px;
+
+}
+
+.com-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+
+}
+
+.comm-link{
+    text-decoration: none;
+}
+
+.therapists{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.ther-log{
+    width: 15px;
+
+}
+
+.ther-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+
+}
+.therapist-link{
+    text-decoration: none;
+}
+
+.resources{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.res-log{
+    width: 15px;
+
+}
+
+.res-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+}
+
+.resources-text{
+    margin-top: 3px;
+}
+
+.res-link{
+    text-decoration: none;
+}
+
+.chats{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.chat-log{
+    width: 15px;
+}
+
+.chat-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+
+}
+.chat-text{
+    margin-top: 3px;
+}
+.chat-link{
+    text-decoration: none;
+}
+
+.my-bookings{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.book{
+    width: 15px;
+}
+
+.booking-link{
+    text-decoration: none;
+}
+
+.booking-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #C7C7C7;
+    font-weight: 500;
+
+}
+
+.booking-text{
+    margin-top: 3px;
+}
+
+.settings{
+    display: flex;
+    gap: 10px;
+    margin-top: 255px;
+    margin-left: 10px;
+   
+}
+
+.set-icon{
+    width: 15px;
+}
+
+.settings-link{
+    text-decoration: none;
+}
+
+.set-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+
+}
+
+.settings-text{
+    margin-top: 3px;
+}
+
+.log-out{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.log{
+    width: 15px;
+}
+
+.log-link{
+    text-decoration: none;
+}
+
+.log-txt{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+
+}
+
+.logout-text{
+    margin-top: 3px;
+}
+
+header{
+   border-bottom: 1px solid #444444;
+   width: 690px;
+   height: 15vh;
+   background-color: #131313;
+   /* position: fixed;
+   top: 0;
+   left: 9.5rem;
+   
+   z-index: 1000; */
+}
+
+
+
+.icons{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.search{
+    width: 8px;
+}
+
+.notify{
+    width: 8px;
+
+}
+
+.profile-pic{
+    width: 15px;
+}
+
+.profile{
+    margin-top: 2px;
+}
